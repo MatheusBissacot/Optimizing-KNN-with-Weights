@@ -1,11 +1,12 @@
-# ac1
+# KNN Optimization for Class Imbalance
 
-Code Source: https://github.com/rushter/MLAlgorithms/blob/master/examples/nearest_neighbors.py
-Benchmark Source: https://www.openml.org/search?type=study&sort=tasks_included&study_type=task&id=99
+## Description
 
-@article{oml-benchmarking-suites,
-      title={OpenML Benchmarking Suites}, 
-      author={Bernd Bischl and Giuseppe Casalicchio and Matthias Feurer and Frank Hutter and Michel Lang and Rafael G. Mantovani and Jan N. van Rijn and Joaquin Vanschoren},
-      year={2019},
-      journal={arXiv:1708.03731v2 [stat.ML]}
-}
+This project aims to use a base version of the K-Nearest Neighbors (KNN) algorithm, a well-known and established classification algorithm, and optimize it to address class imbalance issues in binary classification tasks.
+
+## Features
+
+- Fetch datasets from OpenML and convert them into Pandas DataFrames.
+- Analyze class imbalances in selected datasets.
+- Visualize the number of occurrences in each target class to confirm binary class imbalances.
+- Implement and optimize the KNN algorithm for handling class imbalances.
